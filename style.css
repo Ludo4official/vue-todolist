@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-color {
+    background-color: #001533;
+    height: 80vh;
+}
+
+ul li i {
+    cursor: pointer;
+}
+
+.check {
+    text-decoration: line-through;
+}
+
+.item {
+    cursor: pointer;
+}
