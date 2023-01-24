@@ -32,6 +32,8 @@ createApp({
             ]      
                 
         }
+
+        
     },
 
     methods: {
@@ -56,22 +58,20 @@ createApp({
 
         },
 
-        // check() {
-
-        //     let listItem = document.getElementById('listItem');
-
-        //     if (this.todos.done = 'False') {
-
-        //         listItem.classList.add('check')
-
-        //     } else {
-
-        //         listItem.classList.add('check')
-
-        //     }
-
-        // }
-
     }
 
 }).mount('#app');
+
+// let listItem = document.getElementById('listItem');
+
+// if (this.todos.done = 'True') {
+
+//     listItem.classList.add('check')
+
+// } else {
+
+//     listItem.classList.add('check')
+
+// }
+
+
