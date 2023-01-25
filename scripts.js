@@ -42,7 +42,9 @@ createApp({
 
             if (this.newTodo != 0) {
 
-                this.todos.push(this.newTodo);
+                this.todos.push({
+                    text:this.newTodo,
+                    done:false});
                 this.newTodo = '';
 
             }
