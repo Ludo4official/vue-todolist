@@ -10,23 +10,23 @@ createApp({
 
             todos: [ {
                 text: 'Fare la spesa',
-                done: 'False',
+                done: false,
                 
             }, {
                 text: 'Andare in banca',
-                done: 'True',
+                done: true,
                 
             }, {
                 text: 'Chiamare meccanico',
-                done: 'False',
+                done: false,
                 
             }, {
                 text: 'Fare la lavatrice',
-                done: 'True',
+                done: true,
                 
             }, {
                 text: 'Comprare inchiostro nero',
-                done: 'False',
+                done: false,
                 
             }, 
             ]      
